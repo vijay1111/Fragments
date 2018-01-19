@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vijay.fragments.MainActivity">
+
+    <Button
+        android:id="@+id/lifecycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="view_Click"
+        android:text="lifecycle" />
+
+    <Button
+        android:id="@+id/dynamic_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="view_Click"
+        android:text="dynamic fragment" />
+
+    <Button
+        android:id="@+id/fragment_lifecycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="view_Click"
+        android:text="fragment_lifecycle" />
+
+    <Button
+        android:id="@+id/backstack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="view_Click"
+        android:text="back stack" />
+
+    <Button
+        android:id="@+id/addremovereplace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="view_Click"
+        android:text="Add remove replace" />
+
+    <Button
+        android:id="@+id/dissectingbackstack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="view_Click"
+        android:text="dissectingbackstack" />
+
+    <Button
+        android:id="@+id/popupbackstack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="view_Click"
+        android:text="popupbackstack" />
+
+
+</LinearLayout>
